@@ -1,0 +1,5 @@
+<%= turbo_stream_from @room %>
+<div id="messages">
+<%= render room.messages %>
+<%= render "messages/form", room:room%>
+</div>
